@@ -1,0 +1,167 @@
+/*
+ * style.css 
+ */
+
+@font-face { font-family: 'Verdana'; }
+
+html{
+	overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+	overflow-x: auto;
+}
+body{
+	font-family: "Verdana";
+	font-size: 13px;
+}
+html, body {
+	height: 100%;
+}
+
+p{
+	text-indent:20px;
+}
+
+.tudo {
+	min-height: 100%;
+	position: relative;
+}
+
+.topo{
+	 background-color: #323F62; 
+	 color: white; 
+	 padding-top: 4px; 
+	 padding-bottom: 4px;
+	 font-size: 12px;
+} 
+ 
+.linha{
+	width:100%;
+	text-align: center;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: white;
+}
+
+.navbar{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #323F62;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	font-weight: bolder;
+	background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #F9F9F9;
+}
+
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    line-height: 1;
+    width: 100%;
+	border-bottom: 0px #4db848 solid;
+}
+
+@media screen and (max-width: 767px){
+	.navbar-default .navbar-nav > li > a {
+		padding: 10px 15px 10px;
+	}
+	a.navbar-brand img {
+		max-width: 170px;
+		margin-top: 5px;
+		margin-left: 10px;
+	}
+	.navbar-brand {
+		padding: 0px 0px;
+		height: 80px;
+	}
+	.navbar-toggle{
+		margin-top: 16px;
+	}
+}
+@media screen and (min-width:768px) and (max-width: 991px){
+	.navbar-default .navbar-nav > li > a {
+	    padding: 35px 12px 0px;
+		height: 85px;
+	}
+	a.navbar-brand img {
+		max-width: 200px;
+		padding-top: 0;
+	}
+	.navbar-brand{
+		padding: 3px 15px;
+	}
+}
+@media screen and (min-width:992px) and (max-width: 1199px){
+	.navbar-default .navbar-nav > li > a {
+		padding: 45px 25px 0px;
+		height: 100px;
+	}
+	a.navbar-brand img {
+		max-width: 200px;
+		padding-top: 0px;
+	}
+}
+@media screen and (min-width:1200px){
+	.navbar-default .navbar-nav > li > a {
+		padding: 45px 40px 0;
+		font-size: 12px;
+		height: 100px;
+	}
+	a.navbar-brand img {
+		max-width: 200px;
+		padding-top: 0px;
+	}
+	.navbar-brand {
+		padding-top: 10px;
+	}
+}
+
+
+.titulo{
+	width: 100%;
+	background-color: #F5F5F5;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: #04A6DE;
+    
+    webkit-box-shadow: 0 -15px 20px -22px #4E5B69 inset;
+    -moz-box-shadow: 0 -15px 20px -22px #4E5B69 inset;
+    box-shadow: 0 -15px 20px -22px #4E5B69 inset;    
+}
+.titulo > .container > h3{
+	margin: 15px;
+}
+
+.contato{
+	margin-top: 20px;
+	line-height: 200%;
+	font-size: 13px;
+}
+
+.conteudo{
+	padding-bottom: 90px;
+}
+
+.footer{
+	padding: 20px 0px 10px 0px;
+	background-color: #EDEDED;
+	color: black;
+	font-size: 12px;
+	margin-top: 50px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+	 webkit-box-shadow: 0 15px 20px -22px #4E5B69 inset;
+    -moz-box-shadow: 0 15px 20px -22px #4E5B69 inset;
+    box-shadow: 0 15px 20px -22px #4E5B69 inset;
+}
