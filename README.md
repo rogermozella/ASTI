@@ -1,2 +1,0 @@
-# ASTI
-ASTI Integradora
