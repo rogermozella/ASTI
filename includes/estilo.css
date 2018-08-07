@@ -89,11 +89,11 @@ p{
 }
 @media screen and (min-width:768px) and (max-width: 991px){
 	.navbar-default .navbar-nav > li > a {
-	    padding: 35px 12px 0px;
-		height: 85px;
+	    padding: 30px 10px 0px;
+		height: 75px;
 	}
 	a.navbar-brand img {
-		max-width: 200px;
+		max-width: 160px;
 		padding-top: 0;
 	}
 	.navbar-brand{
@@ -102,7 +102,7 @@ p{
 }
 @media screen and (min-width:992px) and (max-width: 1199px){
 	.navbar-default .navbar-nav > li > a {
-		padding: 45px 25px 0px;
+		padding: 45px 18px 0px;
 		height: 100px;
 	}
 	a.navbar-brand img {
@@ -112,7 +112,7 @@ p{
 }
 @media screen and (min-width:1200px){
 	.navbar-default .navbar-nav > li > a {
-		padding: 45px 40px 0;
+		padding: 45px 28px 0;
 		font-size: 12px;
 		height: 100px;
 	}

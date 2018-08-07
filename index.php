@@ -1,5 +1,5 @@
 <?php 
-	$contato = $empresa = $home = $parceiros = $solucoes = "";
+	$faleconosco = $quemsomos = $home = $case = $solucoes = $clientes = "";
 	$home = "active";
 	
 	require_once('includes/head.php');

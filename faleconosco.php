@@ -1,6 +1,6 @@
 <?php 
-	$contato = $empresa = $home = $parceiros = $solucoes = "";
-	$contato = "active";
+	$faleconosco = $quemsomos = $home = $case = $solucoes = $clientes = "";
+	$faleconosco = "active";
 
 	require_once('includes/head.php');
 	require_once('includes/topo.php');
@@ -61,7 +61,7 @@
 
 	<div class='titulo'>
 		<div class='container'>
-			<h3>Contato</h3>
+			<h3>Fale Conosco</h3>
 		</div>
 	</div>
 	<div class='container'>
